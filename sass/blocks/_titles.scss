@@ -1,0 +1,27 @@
+.title {
+    font-family: BuntislandWeathered-Regular;
+    font-size: 80px;
+    line-height: 94px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.095em;
+    color: $main-color;
+
+    &_h1 {
+        font-size: 120px;
+        line-height: 141px;
+        margin-top: 20px;
+        text-align: right;
+        background: linear-gradient(179.3deg, #D30000 0.6%, rgba(0, 0, 0, 0.24) 147.57%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+.subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+}
