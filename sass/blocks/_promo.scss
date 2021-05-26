@@ -1,12 +1,20 @@
 .promo {
     width: 100vw;
-    min-height: 100vh;
+    min-height: 100%;
     padding: 20px 0 60px 0;
     background: linear-gradient(270deg, #1A1717 0%, #000000 30%),
     linear-gradient(180deg, #2F2A2A 30.15%, #000000 32.56%);
 
     .container {
         min-height: 100%;
+    }
+
+    &__subtitle {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
     }
 
     &__head {
@@ -29,7 +37,7 @@
 
     &__photo {
         position: absolute;
-        bottom: -67px;
+        bottom: -60px;
         left: -60px;
     }
 
