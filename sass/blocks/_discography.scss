@@ -1,0 +1,82 @@
+.discography {
+    width: 100vw;
+    min-height: 1979px;
+    padding: 100px 0 220px 0;
+    position: relative;
+    background: #0D0B0B;
+}
+
+.disc {
+    display: flex;
+    margin-top: 105px;
+    justify-content: space-between;
+
+    &__wrapper {
+        width: 320px;
+        padding: 25px 30px;
+        text-align: center;
+        background: #060606;
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 37px;
+        letter-spacing: 0.065em;
+        span {
+            color: $main-color;
+            font-size: 30px;
+        }
+    }
+
+    &__cover {
+        width: 250px;
+        height: 250px;
+        margin-top: 20px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &__date {
+        margin-top: 20px;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 37px;
+        letter-spacing: 0.065em;
+    }
+}
+
+#Herzeleid {
+    margin-top: 40px;
+}
+
+#Reise {
+    margin-top: 250px;
+    margin-left: 15px;
+}
+
+#Sehnsucht {
+    margin-top: 10px;
+}
+
+#Rosenrot {
+    margin-top: 80px;
+    margin-left: -40px;
+}
+
+#seventh {
+    margin-top: 100px;
+}
+
+#Mutter {
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+#Liebe {
+    margin-top: 85px;
+    margin-right: 50px;
+}

@@ -1,20 +1,9 @@
 .about {
-    width: 100%;
+    width: 100vw;
     min-height: 1622px;
     padding: 110px 0 165px 0;
     position: relative;
     background: linear-gradient(332.6deg, #151212 35.2%, #100E0E 69.36%), linear-gradient(0.41deg, #151212 0.23%, #000000 98.54%);
-
-    &__bg {
-        width: 1440px;
-        height: inherit;
-        margin: 0 auto;
-        position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        z-index: 0;
-    }
 
     &__members-wrapper {
         margin-top: 85px;

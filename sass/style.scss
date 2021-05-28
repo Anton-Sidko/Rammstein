@@ -18,8 +18,53 @@ body {
     margin: 0 auto;
     position: relative;
     z-index: 10;
+
+    &_wide {
+        width: 1440px;
+    }
+}
+
+.bg-image {
+    width: 1440px;
+    height: inherit;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+footer {
+    height: 100px;
+    background: #060606;
+}
+
+.footer__wrapper {
+    width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a {
+        color: #ffffff;
+    }
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
 }
 
 @import 'blocks/titles';
 @import 'blocks/promo';
 @import 'blocks/about';
+@import 'blocks/carousel';
+@import 'blocks/discography';
+@import 'blocks/reflections';

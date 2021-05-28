@@ -1,0 +1,40 @@
+.reflections {
+    width: 100vw;
+    min-height: 773px;
+    padding: 93px 0 50px 0;
+    background: linear-gradient(180deg, #060606 -4.03%, #000000 100%);
+
+    &__content {
+        position: relative;
+        display: flex;
+        margin-top: 80px;
+    }
+
+    &__photo {
+        margin-left: -80px;
+        margin-right: 100px;
+    }
+
+    &__descr {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .logo {
+            align-self: flex-end;
+        }
+    }
+
+    &__text {
+        font-weight: 200;
+        font-size: 20px;
+        line-height: 25px;
+        span {
+            color: $main-color;
+        }
+
+        &:nth-child(2) {
+            margin-top: -50px;
+        }
+    }
+}
